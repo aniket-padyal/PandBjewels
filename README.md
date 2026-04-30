@@ -1,16 +1,26 @@
-# React + Vite
+# 💎 Jewellery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive jewellery e-commerce frontend built using React and Tailwind CSS.  
+This project focuses on clean UI, elegant design, and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🛍️ Beautiful product showcase
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- ⚡ Fast performance with React
+- 🎨 Styled using Tailwind CSS
+- 🧭 Clean and minimal navigation bar
+- 🖼️ Product cards with images and details
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite 
+- **Version Control:** Git & GitHub
+
+---
