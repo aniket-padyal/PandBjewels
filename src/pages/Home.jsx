@@ -1,7 +1,23 @@
-import React from "react";
+import products from "../constant/index";
+import { Link } from "react-router-dom";
 
-const Home = () => {
-  return <h1>Home page</h1>;
-};
+function Home() {
+  return (
+    <div>
+      <h1>Products</h1>
+
+      {/* {products.map((product) => (
+        <div key={product.id}>
+          <h3>{product.name}</h3>
+          <p>₹{product.price}</p>
+
+          <Link to={`/product/${product.id}`}>
+            View Details
+          </Link>
+        </div>
+      ))} */}
+    </div>
+  );
+}
 
 export default Home;
