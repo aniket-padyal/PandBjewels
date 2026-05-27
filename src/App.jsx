@@ -1,11 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRoutes from "./routes/AppRoutes";
+import { useState } from "react";
+import Hero from "./components/home/Hero";
+import FeaturedProduct from "./components/products/FeaturedProduct";
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <>
+      <Hero />
+      <FeaturedProduct />
+    </>
   );
 }
 

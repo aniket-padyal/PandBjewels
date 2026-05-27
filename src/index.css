@@ -1,47 +1,91 @@
 @import "tailwindcss";
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-
-:root {
-  --bg: #faf9f6;
-  --text: #2c2c2c;
-  --gold-accent: #c6a769;
-  --sec-accent: #e8e2d6;
-  --border: #e5e5e5;
-}
-
-@theme {
-  --inter-body: "Inter", sans-serif;
-  --playfair-heading: "Playfair Display", serif;
-}
-
-body,
-html {
-  width: 100%;
-  font-family: var(--inter-body, sans-serif);
-  font-size: 18px;
-  line-height: 145%;
-  letter-spacing: 0.18px;
-
-  color: var(--text);
-  /* background-color: var(--bg); */
-  background: #dddddd;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 @layer utilities {
-  .center-flex {
-    @apply flex items-center justify-center;
+  .backface-hidden {
+    backface-visibility: hidden;
   }
 
-  .abs-center {
-    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  .intro-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    transform-origin: center center;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+
+  .line {
+    position: relative;
+    will-change: transform;
   }
 }
 
-@layer components {
+body {
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+a,
+p {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: -1px;
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+  }
+  .hero-content {
+    padding: 15svh 2rem 2rem 2rem;
+  }
+  .hero-header {
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.35)
+  );
+
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
 }
