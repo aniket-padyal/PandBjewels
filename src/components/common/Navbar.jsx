@@ -1,5 +1,3 @@
-
-
 const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full p-8 flex justify-between items-start z-2 ">
@@ -11,7 +9,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="flex gap-16 ">
+      <div className="flex flex-col gap-5 ">
         <a href="#">Work</a>
         <a href="#">Catalogue</a>
         <a href="#">About</a>

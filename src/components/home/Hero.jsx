@@ -158,7 +158,7 @@ function Hero() {
         </div>
 
         <div className="intro-img hero-img">
-          <img src={img5} alt="" />
+          <img src={img3} alt="" />
         </div>
 
         <div className="intro-img">
@@ -166,7 +166,7 @@ function Hero() {
         </div>
 
         <div className="intro-img">
-          <img src={img3} alt="" />
+          <img src={img5} alt="" />
         </div>
 
         <div className="hero-content absolute top-0 left-0 w-full h-screen py-[15svh] px-8 flex flex-col justify-between z-2  ">
