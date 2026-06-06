@@ -170,15 +170,15 @@ function Hero() {
         </div>
 
         <div className="hero-content absolute top-0 left-0 w-full h-screen py-[15svh] px-8 flex flex-col justify-between z-2  ">
-          <div className="hero-header w-[60%] ">
-            <h1>We just don't sell cars we sell trust.</h1>
+          <div className="hero-header h-svh flex items-center justify-center text-5xl  ">
+            <h1>Elegance you can trust, quality you can feel.</h1>
           </div>
 
-          <div className="hero-social">
+          {/* <div className="hero-social">
             <p>Say Hello</p>
             <a href="#">info@foundryandform.com</a>
             <a href="#">View Enquiries</a>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
