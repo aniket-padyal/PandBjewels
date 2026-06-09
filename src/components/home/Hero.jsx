@@ -62,6 +62,11 @@ function Hero() {
 
     const tl = gsap.timeline({ delay: 1 });
 
+    gsap.set(".hero-title", {
+      opacity: 0,
+      y: 60,
+    });
+
     tl.to(".preloader", {
       scaleX: 1,
       duration: 1.5,
@@ -138,6 +143,13 @@ function Hero() {
       "<",
     );
 
+    tl.to(".hero-title", {
+      opacity: 1,
+      y: 0,
+      duration: 1.5,
+      ease: "power3.out",
+    });
+
     return () => {
       tl.kill();
     };
@@ -170,15 +182,17 @@ function Hero() {
         </div>
 
         <div className="hero-content absolute top-0 left-0 w-full h-screen py-[15svh] px-8 flex flex-col justify-between z-2  ">
-          <div className="hero-header h-svh flex items-center justify-center text-5xl  ">
-            <h1>Elegance you can trust, quality you can feel.</h1>
+          <div className="hero-header h-svh flex  items-center justify-center  ">
+            <h1 className="hero-title text-3xl sm:text-5xl ">
+              Elegance you can trust, quality you can feel.
+            </h1>
           </div>
 
-          {/* <div className="hero-social">
+          <div className="hero-social hidden sm:block ">
             <p>Say Hello</p>
             <a href="#">info@foundryandform.com</a>
             <a href="#">View Enquiries</a>
-          </div> */}
+          </div>
         </div>
       </section>
     </div>
