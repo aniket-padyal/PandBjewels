@@ -10,6 +10,8 @@ import img2 from "../../assets/heroReveal/img-2.webp";
 import img3 from "../../assets/heroReveal/img-3.webp";
 import img4 from "../../assets/heroReveal/img-4.webp";
 import img5 from "../../assets/heroReveal/img-5.webp";
+import img6 from "../../assets/heroReveal/img-6.jpeg";
+import img7 from "../../assets/heroReveal/img-7.jpg";
 
 gsap.registerPlugin(CustomEase);
 
@@ -170,7 +172,7 @@ function Hero() {
         </div>
 
         <div className="intro-img hero-img">
-          <img src={img3} alt="" />
+          <img src={img7} alt="" />
         </div>
 
         <div className="intro-img">
@@ -183,15 +185,14 @@ function Hero() {
 
         <div className="hero-content absolute top-0 left-0 w-full h-screen py-[15svh] px-8 flex flex-col justify-between z-2  ">
           <div className="hero-header h-svh flex  items-center justify-center  ">
-            <h1 className="hero-title text-3xl sm:text-5xl ">
+            <h1 className="hero-title text-3xl sm:text-4xl ">
               Elegance you can trust, quality you can feel.
             </h1>
           </div>
 
-          <div className="hero-social hidden sm:block ">
-            <p>Say Hello</p>
-            <a href="#">info@foundryandform.com</a>
-            <a href="#">View Enquiries</a>
+          <div className="hero-social hidden sm:block  ">
+            <p className="text-lg font-bold">Say Hello</p>
+            <a href="#">aniexport&import@gmail.com</a>
           </div>
         </div>
       </section>
