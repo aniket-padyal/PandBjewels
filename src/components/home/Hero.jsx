@@ -7,7 +7,7 @@ import Preloader from "../common/Preloader";
 
 import img1 from "../../assets/heroReveal/img-1.webp";
 import img2 from "../../assets/heroReveal/img-2.webp";
-import img3 from "../../assets/heroReveal/img-3.jpg";
+import img3 from "../../assets/heroReveal/img-3.webp";
 import img4 from "../../assets/heroReveal/img-4.webp";
 import img5 from "../../assets/heroReveal/img-5.webp";
 
