@@ -6,7 +6,7 @@ import Footer from "./components/common/Footer";
 function App() {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <FeaturedProduct />
       <Footer />
     </>
