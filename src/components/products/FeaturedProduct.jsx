@@ -24,7 +24,7 @@ const FeaturedProduct = () => {
             />
 
             {/* information */}
-            <div className="flex justify-between mt-4">
+            <div className="md:flex justify-between mt-4">
               <p className="font-bold">{item.name}</p>
               <p className={item.inStock ? "text-green-500" : "text-red-500"}>
                 ● {item.inStock ? "In stock" : "Sold Out"}

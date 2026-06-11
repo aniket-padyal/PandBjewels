@@ -6,7 +6,7 @@ import FeaturedProduct from "./components/products/FeaturedProduct";
 function App() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <FeaturedProduct />
 
     </>
