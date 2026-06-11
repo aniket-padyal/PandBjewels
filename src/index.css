@@ -36,6 +36,7 @@ body {
   font-family: var(--body-font);
   box-sizing: border-box;
   color: #fff;
+    user-select: none;
 }
 
 img {

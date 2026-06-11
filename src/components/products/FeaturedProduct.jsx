@@ -4,7 +4,7 @@ import { PRODUCTS } from "../../data/constants";
 const FeaturedProduct = () => {
   return (
     <section className=" bg-[#FAF7F2] ">
-      <p className="text-2xl font-bold px-4 md-px-8 m-8 text-black ">
+      <p className="text-2xl font-bold px-4 md-px-10 mt-8 text-black ">
         Products we offer
       </p>
 
