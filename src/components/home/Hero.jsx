@@ -69,7 +69,7 @@ function Hero() {
 
     tl.to(".preloader", {
       scaleX: 1,
-      duration: 1.5,
+      duration: 1,
       ease: "glide",
       onComplete: () => {
         gsap.set(".preloader", {
@@ -80,7 +80,7 @@ function Hero() {
 
     tl.to(".preloader", {
       scaleX: 0,
-      duration: 1.5,
+      duration: 1,
       ease: "hop",
     });
 
@@ -160,38 +160,38 @@ function Hero() {
       <Preloader />
       <Navbar />
 
-      <section className="relative w-full h-screen min-h-svh overflow-hidden">
+      <section className="relative w-full h-dvh overflow-hidden bg-[#E8E2D0] text-[#f1e421]    ">
         <div className="intro-img">
-          <img src={img1} alt="" />
+          <img src={img1} />
         </div>
 
         <div className="intro-img">
-          <img src={img2} alt="" />
+          <img src={img2} />
         </div>
 
         <div className="intro-img hero-img">
-          <img src={img3} alt="" />
+          <img src={img3} />
         </div>
 
         <div className="intro-img">
-          <img src={img4} alt="" />
+          <img src={img4} />
         </div>
 
         <div className="intro-img">
-          <img src={img5} alt="" />
+          <img src={img5} />
         </div>
 
         <div className="hero-content absolute top-0 left-0 w-full h-screen py-[15svh] px-8 flex flex-col justify-between z-2  ">
-          <div className="hero-header h-svh flex  items-center justify-center  ">
+          <div className="hero-header h-svh flex items-center justify-center  ">
             <h1 className="hero-title text-3xl sm:text-4xl ">
               Elegance you can trust, quality you can feel.
             </h1>
           </div>
 
-          <div className="hero-social hidden sm:block  ">
+          {/* <div className="hero-social hidden sm:block  ">
             <p className="text-lg font-bold">Say Hello</p>
             <a href="#">aniexport&import@gmail.com</a>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

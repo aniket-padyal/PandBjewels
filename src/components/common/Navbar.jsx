@@ -2,7 +2,7 @@ import { NAVBAR } from "../../data/constants";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full px-4 sm:px-8 py-3 flex justify-between items-center z-3  ">
+    <nav className="fixed top-0 w-full px-4 sm:px-8 py-3 flex justify-between items-center z-3 text-[#E8E2D0]  ">
       <div className="nav-logo">
         <h1 href="#" className="text-3xl sm:text-5xl cursor-pointer ">
           Ani e&i
