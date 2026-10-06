@@ -19,7 +19,7 @@ const Category = () => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3kJlSb21r6T4j4AA4SiQ__Km0Qys2-xGlPpmOLBQe3Q&s=10"
             alt="full-set-img"
           />
-          <p className="text-center mt-5 text-2xl " >Full Set</p>
+          <h1 className="text-center mt-5 text-2xl " >Full Set</h1>
         </div>
 
         <div className="necklace w-75 h-95 ">
@@ -27,7 +27,7 @@ const Category = () => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRq0UAd4hAecgB6vCWLJnYnmshfQ52_USxg0WvlAtlFA&s=10"
             alt="necklace-img"
           />
-          <p className="text-center mt-5 text-2xl ">Necklace</p>
+          <h1 className="text-center mt-5 text-2xl ">Necklace</h1>
         </div>
       </div>
     </div>

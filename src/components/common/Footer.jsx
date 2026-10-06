@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 mt-16">
       <div className="container mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center gap-6">
-        <h2 className="text-2xl font-semibold text-white">Ani e&i</h2>
+        <h1 className="text-2xl font-semibold text-white">Ani e&i</h1>
 
         <nav className="flex gap-6 text-sm">
           <a href="/" className="hover:text-white transition-colors">Home</a>
