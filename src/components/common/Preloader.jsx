@@ -1,6 +1,6 @@
 const Preloader = () => {
   return (
-    <div className="preloader-overlay fixed top-0 w-full h-screen min-h-svh bg-[#FAF7F2] z-10 overflow-hidden will-change-transform ">
+    <div className="preloader-overlay fixed top-0 w-full h-screen min-h-svh bg-black z-10 overflow-hidden will-change-transform ">
       <div className="preloader absolute top-0 w-full h-2 bg-[#FAF7F2] origin-left scale-x-0 will-change-transform"></div>
     </div>
   );
