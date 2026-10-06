@@ -1,30 +1,17 @@
-import React from "react";
+import { whyDiscription } from "../../data/constants";
 
 const WhyChoose = () => {
   return (
-    <div className="h-screen mx-auto flex flex-col items-center justify-center ">
-      <h1 className="text-center text-3xl mb-30">Why Choose Us</h1>
+    <div className="min-h-screen mx-auto flex flex-col items-center justify-center ">
+      <h1 className="text-center text-3xl mb-10 sm:mb-30 ">Why Choose Us</h1>
 
-      <div className="container flex flex-col sm:flex-row items-center sm:items-start justify-center gap-10 sm:gap-5 ">
-        <div className="w-95  ">
-          <h1 className="heading text-2xl mb-5  ">01.Designed to last</h1>
-          <p className="info text-lg">
-            Advanced anti-tarnish coating and durable alloy bases ensure
-            long-lasting luster.
-          </p>
-        </div>
-        <div className="w-95  ">
-          <h1 className="heading text-2xl mb-5">02. Accessible Luxury</h1>
-          <p className="info text-lg">
-            High-fashion aesthetic without the traditional retail markup.
-          </p>
-        </div>
-        <div className="w-95  ">
-          <h1 className="heading text-2xl mb-5 ">03. Ethical & Mindful</h1>
-          <p className="info text-lg ">
-           Cruelty-free, skin-conscious materials designed with care and precision.
-          </p>
-        </div>
+      <div className="w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-stretch justify-center gap-5 ">
+        {whyDiscription.map((item) => (
+          <div className="w-full sm:flex-1 p-5 " key={item.heading}>
+            <h1 className="text-xl sm:text-2xl mb-3 sm:mb-5 ">{item.heading}</h1>
+            <p className="text-base sm:text-lg">{item.info}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

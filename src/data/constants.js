@@ -4,6 +4,21 @@ const NAVBAR = [
   { id: 3, label: "About" },
 ];
 
+const whyDiscription = [
+  {
+    heading: "01.Designed to last",
+    info: "Advanced anti-tarnish coating and durable alloy bases ensure long-lasting luster.",
+  },
+  {
+    heading: "02. Accessible Luxury",
+    info: "High-fashion aesthetic without the traditional retail markup.",
+  },
+  {
+    heading: "03. Timeless Style",
+    info: "Timeless elegance with a modern twist.",
+  },
+];
+
 const PRODUCTS = [
   {
     id: 1,
@@ -371,4 +386,4 @@ const PRODUCTS = [
   },
 ];
 
-export { NAVBAR, PRODUCTS };
+export { NAVBAR, PRODUCTS, whyDiscription };
